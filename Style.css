@@ -10,15 +10,18 @@ body{
     display: flex;
     justify-content: center;
 }
-.result{
+#result{
     height: 120px;
     width: 430px;
     background-color: white;
     margin-top: 40px;
     border-radius: 20px;
     color: black;
+    font-size: 2.5rem;
 }
-
+button{
+    cursor:pointer;
+}
 .property{
     height: 80px;
     width: 80px;
