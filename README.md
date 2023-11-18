@@ -1,2 +1,2 @@
 # Calculator
-[Check out](https://abdullahsiddiqe01.github.io/calc/).
+[Check out](https://abdullahsiddiqe01.github.io/calc/)
