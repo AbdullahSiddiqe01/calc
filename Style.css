@@ -1,23 +1,28 @@
 body{
     display: flex;
     justify-content: center;
+    background: linear-gradient(50deg , rgb(22, 19, 29), rgb(80, 84, 18));
 }
 .main{
     height: 630px;
     width: 500px;
-    background-color: aqua;
+    background-color: tomato;
     border-radius: 20px;
     display: flex;
     justify-content: center;
 }
 #result{
-    height: 120px;
+    height: 90px;
     width: 430px;
     background-color: white;
     margin-top: 40px;
     border-radius: 20px;
     color: black;
-    font-size: 2.5rem;
+    font-size: 2.9rem;
+    text-align: right;
+}
+.isequal{
+    background-color: orange;
 }
 button{
     cursor:pointer;
@@ -25,13 +30,14 @@ button{
 .property{
     height: 80px;
     width: 80px;
-    background-color: rgb(55, 55, 132);
+    background-color: black;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 50%;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 2);
 }
 .line-one{
     display: flex;
@@ -66,9 +72,6 @@ button{
     width: 430px;
 }
 @media(max-width:500px){
-    body{
-        background-color: gold;
-    }
     .main{
         height: 520px;
         width: 370px;
@@ -76,7 +79,7 @@ button{
     .property{
         height: 60px;
         width: 60px;
-        border-radius: 10px;
+        border-radius: 50%;
         font-size: 40px;
     }
     .line-one{
@@ -99,7 +102,7 @@ button{
         position: absolute;
         top: 440px;
     }
-    .result{
+    #result{
         width: 320px;
     }
 }
